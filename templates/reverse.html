@@ -8,10 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="{% url 'reverse' %}">
-        <h1>Vice Versa</h1>
-        <textarea cols="50" rows="10" name="usertext"></textarea><br> <br>
-        <input type="submit" value="Reverse!">
-    </form>
+    <h1>Reversed text</h1>
+    <h2>Before</h2>
+    {{usertext}}
+    <h2>After</h2>
+    {{reversedtext}}
 </body>
 </html>
